@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:padding="10dp">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/camera_row_with_ripple_effect"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.ranapplications.ranlibrary.NewTextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/titleTextColor"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toStartOf="@+id/textViewConfidence"
+        app:layout_constraintStart_toEndOf="@+id/imageViewIcon"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        tools:text="Camera 1" />
+
+    <com.ranapplications.ranlibrary.NewTextViewLight
+        android:id="@+id/textViewContent"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="bottom"
+        android:textColor="@color/contentTextColor"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textViewConfidence"
+        app:layout_constraintStart_toEndOf="@+id/imageViewIcon"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+        tools:text="05/05/2020  20:12" />
+
+    <com.ranapplications.ranlibrary.NewTextView
+        android:id="@+id/textViewConfidence"
+        android:layout_width="70dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:textColor="@color/contentTextColor"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        tools:text="90%" />
+
+    <ImageView
+        android:id="@+id/imageViewIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/human_motion_detector_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

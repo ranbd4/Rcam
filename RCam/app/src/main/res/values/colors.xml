@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CACDD5</color>
+    <color name="colorPrimaryDark">#CACDD5</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="textColor">#505050</color>
+    <color name="white">#FFFF</color>
+    <color name="statusBarColor">#DFCACDD5</color>
+    <color name="navigationBarColor">#DEE1E9</color>
+    <color name="lineColor">#434343</color>
+    <color name="titleTextColor">#26292C</color>
+    <color name="contentTextColor">#959599</color>
+
+
+
+
+</resources>

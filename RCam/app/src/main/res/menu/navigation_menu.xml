@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigationMain"
+        android:icon="@drawable/main_icon"
+        android:title="@string/main" />
+
+    <item
+        android:id="@+id/navigationAlerts"
+        android:icon="@drawable/alerts_menu"
+        android:title="@string/alertsMenu" />
+
+<!--    <item-->
+<!--        android:id="@+id/navigationUsers"-->
+<!--        android:icon="@drawable/users_icon"-->
+<!--        android:title="@string/users" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/navigationCart"-->
+<!--        android:icon="@drawable/cart_icon"-->
+<!--        android:title="@string/cart" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/navigationGeneral"-->
+<!--        android:icon="@drawable/settings_icon"-->
+<!--        android:title="@string/general" />-->
+
+</menu>
